@@ -22,11 +22,15 @@ To run this Docker image (which is folder AirGuard), follow these steps:
     docker-compose -p openremote up
 
 **Forecasting**
+
 A forecasting model using the XGBoost algorithm. The data preprocessing steps carried out on the dataset prior to 
 training are shown in Fortecasting folder, one model for each pollutant.
 
 **Data**
+
+
 The data used in this study is sourced from the European Environment Agency's (EEA) air quality database.
 
 **Application**
+
 The application folder contains the connection between the OpenRemote platform and the dumy sensors. Also there is a module responsible for sending the emails and one converting the input data to apropriate format for the forecasting model.
