@@ -17,7 +17,8 @@ To run this Docker image (which is folder AirGuard), follow these steps:
 
 1. *Clone the Repository*
 2. *Navigate to the Project Directory*
-3. *Use the following commands: *
+3. *Use the following commands:*
+   
     docker-compose pull
     docker-compose -p openremote up
 
